@@ -1,0 +1,116 @@
+*{
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    list-style: none;
+    box-sizing: border-box;  /*allows margin and padding in total width/height */
+}
+
+body{
+    font-family:'Times New Roman', Times, serif;
+}
+
+nav{
+    background: #ffffff;
+    height: 80px;
+    width: 100%;
+    border-bottom: 2px solid black;
+}
+.logo{
+    float: left;
+    width: 5%;
+    margin: 0 1%;
+    border-radius: 40%;
+    line-height: 80px;
+}
+
+.profilelogo{
+    width: 5%;
+    border-radius: 40%;
+    line-height: 80px;
+    float: right;
+}
+
+nav ul{
+    margin-left: 440px;
+    display: inline-block;
+}
+
+nav ul li{
+    display: inline-block;
+    line-height: 80px;
+    margin: 0 5px;
+}
+
+nav ul li a{
+    color: rgb(8, 8, 8);
+    font-size: 20px;
+    text-transform: uppercase;
+    padding: 7px 13px;
+    border-radius: 3px;
+}
+
+.active,a:hover{
+    background: #1e1f1f;
+    color: white;
+    transition: 5sec;
+}
+
+
+
+
+
+
+.content-about{
+    display: flex;
+    background-color: #1e1f1f;
+    width: 100%;
+    height: 640px;
+    padding: 50px;
+}
+
+.box1{
+    padding: 50px;
+    width: 65%;
+    background-color: aqua;
+} 
+
+.box2{
+    width: 35%;
+    background-color: #ffffff;
+    padding: 30px;
+    padding-left: 50px;
+    margin-left: 15px;
+}
+
+.img{
+    width: 300px;
+    height: 300px;
+} 
+
+.p1{
+    font-size: 75px;
+}
+
+.p2{
+    font-size: 30px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
